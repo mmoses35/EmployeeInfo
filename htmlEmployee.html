@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title> Employee Information</title>
+<script src="empMoses.js"> </script>
+<style>
+    p  {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 125%
+    }
+</style>
+</head>
+<body>
+<p> Enter your name </p> <input type="text" id="name">
+
+<p> Enter your ID number </p> <input type="text" id="id"> 
+
+<p> Enter the shift number </p> <input type="text" id="sn"> 
+
+<p> Enter your hourly rate </p> <input type="text" id="hpr">
+
+
+
+<p> Production Worker Information: <div id="WI"> </div></p>
+<p> Name: </p> <div id="pname"></div> 
+<p>ID Number: </p> <div id="in"></div>
+<p> Shift: </p> <div id="shift"></div>
+<p> Hourly Pay Rate:</p> <div id="hpr2"> </div>
+
+<p>
+<button type="button" onclick="sendText()"> Submit</button>
+</p>
+
+</body>
+</html>
